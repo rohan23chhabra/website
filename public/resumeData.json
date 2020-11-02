@@ -1,0 +1,164 @@
+{
+    "main": {
+        "name": "Rohan Chhabra",
+        "occupation": "Software Engineer",
+        "description": "I love building and designing software. Currently, pursuing my passion to build real life software projects at Visa Inc",
+        "image": "profilepic.jpg",
+        "bio": "I possess a predilection for writing code which is capable of doing dramatic things. Love playing around with technologies like JAVA, Golang and React. My leisure and pleasure is watching cricket and writing poems, content, essays etc. I possess an unusual propensity to learn vocabulary using etymology. Currently learning Spanish for fun and appreciating the similarities it possesses with English and Hindi as they belong to the same Indo-European language family",
+        "contactmessage": "Well, not a counsellor but just keep learning! That's what I am doing now!",
+        "email": "rohan23chhabra@gmail.com",
+        "phone": "",
+        "jobLocation": "Bengaluru (currently WFH from Allahabad)",
+        "address": {
+            "street": "H.I.G - 3, Pink Flats, 1, Circular Road",
+            "city": "Allahabad",
+            "state": "Uttar Pradesh",
+            "zip": "211001"
+        },
+        "website": "http://www.timbakerdev.com",
+        "resumedownload": "https://rohan23chhabra.github.io",
+        "social": [
+            {
+                "name": "twitter",
+                "url": "https://twitter.com/RohanChhabra23",
+                "className": "fa fa-twitter"
+            },
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/rohan-chhabra-62b890127/",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "instagram",
+                "url": "https://www.instagram.com/rohan23chhabra/",
+                "className": "fa fa-instagram"
+            },
+            {
+                "name": "github",
+                "url": "http://github.com/rohan23chhabra",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "Designing and Learning Languages for fun",
+        "education": [
+            {
+                "school": "Motilal Nehru National Institute of Technology (MNNIT) Allahabad",
+                "degree": "Bachelor of Technology in Computer Science",
+                "graduated": "May 2019",
+                "description": "Relevant Courses included Data Structures and Algorithms, Operating Systems, Networking, Database Management Systems and Computer Architecture.",
+                "logo": "mnnit-1.png"
+            },
+            {
+                "school": "St.Joseph's College",
+                "degree": "High School - 10th and 12th Grade",
+                "graduated": "March 2015",
+                "description": "English, Mathematics, Computer Applications, Pure and Applied Sciences",
+                "logo": "sjc-2.png"
+            },
+            {
+                "school": "Logophilia Education Pvt Limited.",
+                "degree": "Etymology Education",
+                "graduated": "Still learning",
+                "description": "Fundamental Etymology Workshop, Latin Lessons and Gala 2017",
+                "logo": "logophilia-1.png"
+            }
+        ],
+        "work": [
+            {
+                "company": "Visa Inc.",
+                "title": "Currently Working as a Full Time Software Engineer, Former Intern converted to FTE",
+                "years": "FTE(July 2019 - Present), Intern(May 2018 - July 2018)",
+                "logo": "visa1.jpg",
+                "description": "DSLs in Xtext, Xtend, Golang, Distributed Systems, Docker and Kubernetes deployments, ISO 8583 binary parser, Boltdb key-value database, GRPC, Fluentd, Splunk etc."
+            },
+            {
+                "company": "GeeksForGeeks",
+                "title": "Content Writing Intern",
+                "years": "December 2018 - March 2019",
+                "logo": "gfg1.png",
+                "description": "Published articles on competitive programming",
+                "link": "https://auth.geeksforgeeks.org/user/rohan23chhabra/articles"
+            }
+        ],
+        "skills": [
+            {
+                "name": "Git",
+                "level": "70%"
+            },
+            {
+                "name": "Golang",
+                "level": "80%"
+            },
+            {
+                "name": "ReactJs",
+                "level": "50%"
+            },
+            {
+                "name": "JAVA",
+                "level": "90%"
+            },
+            {
+                "name": "C/C++",
+                "level": "80%"
+            },
+            {
+                "name": "Android",
+                "level": "70%"
+            },
+            {
+                "name": "Node.js",
+                "level": "60%"
+            },
+            {
+                "name": "Data Structures and Algorithms",
+                "level": "80%"
+            },
+            {
+                "name": "JAVAEE and JAVAFX",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Tutorials Point",
+                "category": "A video sharing application for students and teachers",
+                "image": "tutorials.jpeg",
+                "url": "https://github.com/rohan23chhabra/Tutors---Point"
+            },
+            {
+                "title": "P2P",
+                "category": "Peer to Peer file sharing JAVAFX application",
+                "image": "p2p.png",
+                "url": "https://github.com/rohan23chhabra/p2p"
+            },
+            {
+                "title": "Oculus Apertor",
+                "category": "An Android application to prevent road accidents",
+                "image": "eye.jpg",
+                "url": "https://github.com/rohan23chhabra/Oculus-Apertor"
+            },
+            {
+                "title": "Wordomania",
+                "category": "A succinct chrome extension that displays the meaning of the selected English word",
+                "image": "words.jpg",
+                "url": "https://github.com/rohan23chhabra/Wordomania"
+            }
+        ]
+    },
+    "testimonials": {
+        "testimonials": [
+            {
+                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
+                "user": "Kareem Abdul Jabbar"
+            },
+            {
+                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
+                "user": "Steve Wozniak... impersonator"
+            }
+        ]
+    }
+}

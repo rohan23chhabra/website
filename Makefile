@@ -6,7 +6,7 @@ build:
 
 .PHONY: github
 github:
-	npm deploy
+	npm run deploy
 
 .PHONY: local
 local:

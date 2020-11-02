@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import {imgRoot} from "../consts"
 
 class Header extends Component {
   render () {
     if (this.props.data) {
       var name = this.props.data.name
-      var profilepic = 'images/' + this.props.data.image
+      var profilepic = imgRoot + this.props.data.image
       var occupation = this.props.data.occupation
       var description = this.props.data.description
       var jobLocation = this.props.data.jobLocation

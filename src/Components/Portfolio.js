@@ -1,10 +1,11 @@
 import React, { Component } from 'react'
+import {portfolioRootPath} from "../consts"
 
 class Portfolio extends Component {
   render () {
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
-        const projectImage = 'images/portfolio/' + projects.image
+        const projectImage = portfolioRootPath + projects.image
         return (
           <div
             key={projects.title}

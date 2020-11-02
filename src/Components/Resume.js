@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {collegeLogosRootPath, workLogosRootPath} from "../consts"
 
 function WorkLink (props) {
   if (props.link) {
@@ -26,7 +27,7 @@ class Resume extends Component {
         )
       })
       var collegeLogos = this.props.data.education.map(function (education) {
-        const logoPath = 'images/logo/college/' + education.logo
+        const logoPath = collegeLogosRootPath + education.logo
         return (
           <div className='info'>
             <img src={logoPath} alt='Institute Logo' />
@@ -34,7 +35,7 @@ class Resume extends Component {
         )
       })
       var workLogos = this.props.data.work.map(function (work) {
-        const logoPath = 'images/logo/work/' + work.logo
+        const logoPath = workLogosRootPath + work.logo
         return (
           <div className='info'>
             <img src={logoPath} alt='Corporation Logo' />

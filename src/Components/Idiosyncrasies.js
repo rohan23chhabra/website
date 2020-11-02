@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import {portfolioRootPath} from "../consts"
 
 function Card (props) {
   return (
@@ -18,7 +19,7 @@ class Idiosyncrasies extends Component {
           return (
             <Card
               key={idiosyncrasies.name}
-              url={'images/portfolio/' + idiosyncrasies.url}
+              url={portfolioRootPath + idiosyncrasies.url}
               title={idiosyncrasies.name}
               desc={idiosyncrasies.desc}
             />

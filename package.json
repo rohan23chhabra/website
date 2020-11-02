@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
-  "homepage": "https://rohan23chhabra.github.io",
-  "version": "0.1.0",
+  "homepage": "https://rohan23chhabra.github.io/website",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.5",

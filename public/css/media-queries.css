@@ -266,20 +266,7 @@
 
    /* Idiosyncrasies Section
    ----------------------------------------------------------------------- */
-   #idiosyncrasies .text-container { text-align: center; }
-   #idiosyncrasies h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #idiosyncrasies h1 span { display: block; }
-   #idiosyncrasies .header-col h1:before { content: none; }
-   #idiosyncrasies blockquote { padding-bottom: 24px; }
-   #idiosyncrasies blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
-   }
+
 
    /* Control Nav */
    .flex-control-nav {

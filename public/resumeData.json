@@ -68,18 +68,32 @@
         "work": [
             {
                 "company": "Visa Inc.",
-                "title": "Currently Working as a Full Time Software Engineer, Former Intern converted to FTE",
-                "years": "FTE(July 2019 - Present), Intern(May 2018 - July 2018)",
-                "logo": "visa1.jpg",
-                "description": "DSLs in Xtext, Xtend, Golang, Distributed Systems, Docker and Kubernetes deployments, ISO 8583 binary parser, Boltdb key-value database, GRPC, Fluentd, Splunk etc."
+                "title": "Software Engineer",
+                "years": "July 2019 - Present",
+                "logo": "visa2.jpg",
+                "description": "DSLs in Xtext, Xtend, Golang, Distributed Systems, Docker and Kubernetes deployments, ISO 8583 binary parser, Boltdb key-value database, GRPC"
             },
             {
                 "company": "GeeksForGeeks",
                 "title": "Content Writing Intern",
                 "years": "December 2018 - March 2019",
-                "logo": "gfg1.png",
-                "description": "Published articles on competitive programming",
+                "logo": "gfg10.png",
+                "description": "Published articles on competitive programming, worked remotely and collaborated with the GeeksforGeeks team",
                 "link": "https://auth.geeksforgeeks.org/user/rohan23chhabra/articles"
+            },
+            {
+                "company": "Visa Inc.",
+                "title": "Software Engineering Intern",
+                "years": "May 2018 - July 2018",
+                "logo": "visa2.jpg",
+                "description": "Logging, Monitoring, Reliability, Fluentd, Splunk, Docker etc."
+            },
+            {
+                "company": "Logophilia Education Pvt. Limited",
+                "title": "Etymology Volunteer",
+                "years": "July 2016 - July 2016",
+                "logo": "logophilia3.png",
+                "description": "Worked remotely to prepare sheets of Q/A for etymology workshops which included learning new roots, drafting them and making questions for them which could be used in workshops"
             }
         ],
         "skills": [
@@ -105,6 +119,14 @@
             },
             {
                 "name": "Android",
+                "level": "70%"
+            },
+            {
+                "name": "Xtext DSLs",
+                "level": "70%"
+            },
+            {
+                "name": "Xtend",
                 "level": "70%"
             },
             {
@@ -149,15 +171,32 @@
             }
         ]
     },
-    "testimonials": {
-        "testimonials": [
+    "hobbies": {
+        "idiosyncrasies": [
             {
-                "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-                "user": "Kareem Abdul Jabbar"
+                "name": "Etymology",
+                "url": "etymology.jpeg",
+                "desc": "Learning languages from their roots!"
             },
             {
-                "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-                "user": "Steve Wozniak... impersonator"
+                "name": "Poetry",
+                "url": "poetry1.png",
+                "desc": "Written some intense poetry on Darkness, Quarantine and Love"
+            },
+            {
+                "name": "Cricket",
+                "url": "Cricket1.jpg",
+                "desc": "Love playing and watching cricket"
+            },
+            {
+                "name": "Spanish",
+                "url": "spanish2.jpg",
+                "desc": "Learning Spanish for fun"
+            },
+            {
+                "name": "Writing",
+                "url": "writing.jpg",
+                "desc": "Essays, content, poetry, blogs, write ups, etc"
             }
         ]
     }

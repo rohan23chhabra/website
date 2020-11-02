@@ -1,35 +1,37 @@
 import React, { Component } from 'react'
 
+function Card (props) {
+  return (
+    <div key={props.key} className='my-card'>
+      <img className='my-card-image' src={props.url} />
+      <h5 className='my-card-title'>{props.title}</h5>
+      <p className='my-card-desc'>{props.desc}</p>
+    </div>
+  )
+}
+
 class Idiosyncrasies extends Component {
   render () {
     if (this.props.data) {
-      var testimonials = this.props.data.testimonials.map(
-        function (testimonials) {
+      var idiosyncrasies = this.props.data.idiosyncrasies.map(
+        function (idiosyncrasies) {
           return (
-            <li key={testimonials.user}>
-              <blockquote>
-                <p>{testimonials.text}</p>
-                <cite>{testimonials.user}</cite>
-              </blockquote>
-            </li>
+            <Card
+              key={idiosyncrasies.name}
+              url={'images/portfolio/' + idiosyncrasies.url}
+              title={idiosyncrasies.name}
+              desc={idiosyncrasies.desc}
+            />
           )
         })
     }
 
     return (
       <section id='idiosyncrasies'>
-        <div className='text-container'>
-          <div className='row'>
-
-            <div className='two columns header-col'>
-              <h1><span>Client Testimonials</span></h1>
-            </div>
-
-            <div className='ten columns flex-container'>
-              <ul className='slides'>
-                {testimonials}
-              </ul>
-            </div>
+        <div className='row'>
+          <h1>Some Hobbies and Idiosyncrasies</h1>
+          <div className='my-card-container'>
+            {idiosyncrasies}
           </div>
         </div>
       </section>

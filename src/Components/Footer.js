@@ -23,7 +23,7 @@ class Footer extends Component {
             </ul>
 
             <ul className='copyright'>
-              <li><a title="Rohan's GitHub Page" href=''> Rohan's GitHub Page </a></li>
+              <li><a title="Rohan's GitHub Page" href='https://rohan23chhabra.github.io/website'> Rohan's GitHub Page </a></li>
               <li>Special thanks to
                 <a title='Tim Baker' href='https://github.com/tbakerx/react-resume-template'> Tim Baker </a>
                 and

@@ -1,4 +1,4 @@
-# [Website](https://rohan23chhabra.github.io)
+# [Website](https://rohan23chhabra.github.io/website)
 
 * This project is my developer portfolio website.
 * I'll keep updating it with time (also will grasp React in the process)

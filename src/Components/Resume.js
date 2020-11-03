@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {collegeLogosRootPath, workLogosRootPath} from "../consts"
+import { collegeLogosRootPath, workLogosRootPath } from '../consts'
 
 function WorkLink (props) {
   if (props.link) {
@@ -11,7 +11,7 @@ function WorkLink (props) {
 class Resume extends Component {
   render () {
     if (this.props.data) {
-      var skillmessage = this.props.data.skillmessage
+      const skillmessage = this.props.data.skillmessage
       var education = this.props.data.education.map(function (education) {
         return (
           <div key={education.school}>
@@ -55,16 +55,16 @@ class Resume extends Component {
           </div>
         )
       })
-      var skills = this.props.data.skills.map(function (skills) {
-        const className = 'bar-expand ' + skills.name.toLowerCase()
-        return (
-          <li key={skills.name}><span
-            style={{ width: skills.level }}
-            className={className}
-                                /><em>{skills.name}</em>
-          </li>
-        )
-      })
+      // var skills = this.props.data.skills.map(function (skills) {
+      //   const className = 'bar-expand ' + skills.name.toLowerCase()
+      //   return (
+      //     <li key={skills.name}><span
+      //       style={{ width: skills.level }}
+      //       className={className}
+      //                           /><em>{skills.name}</em>
+      //     </li>
+      //   )
+      // })
     }
 
     return (
@@ -105,24 +105,24 @@ class Resume extends Component {
           </div>
         </div>
 
-        <div className='row skill'>
+        {/* <div className='row skill'> */}
 
-          <div className='three columns header-col'>
-            <h1><span>Skills</span></h1>
-          </div>
+        {/* <div className='three columns header-col'> */}
+        {/* <h1><span>Skills</span></h1> */}
+        {/* </div> */}
 
-          <div className='nine columns main-col'>
+        {/* <div className='nine columns main-col'> */}
 
-            <p>{skillmessage}
-            </p>
+        {/* <p>{skillmessage} */}
+        {/* </p> */}
 
-            <div className='bars'>
-              <ul className='skills'>
-                {skills}
-              </ul>
-            </div>
-          </div>
-        </div>
+        {/* <div className='bars'> */}
+        {/* <ul className='skills'> */}
+        {/* {skills} */}
+        {/* </ul> */}
+        {/* </div> */}
+        {/* </div> */}
+        {/* </div> */}
       </section>
     )
   }

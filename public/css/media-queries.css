@@ -73,10 +73,10 @@
       font-size: 66px;
       line-height: 66px;
    }
-   #idiosyncrasies blockquote p {
-      font-size: 22px;
-      line-height: 46px;      
-   }
+   /*#idiosyncrasies blockquote p {*/
+      /*font-size: 22px;*/
+      /*line-height: 46px;      */
+   /*}*/
 
     /* Call to Action Section
    ------------------------------------------------------------------- */

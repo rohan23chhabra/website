@@ -5,7 +5,7 @@ import Header from './Components/Header'
 import Footer from './Components/Footer'
 import About from './Components/About'
 import Resume from './Components/Resume'
-import Contact from './Components/Contact'
+import Skills from './Components/Skills'
 import Idiosyncrasies from './Components/Idiosyncrasies'
 import Portfolio from './Components/Portfolio'
 
@@ -46,6 +46,7 @@ class App extends Component {
         <Header data={this.state.resumeData.main} />
         <About data={this.state.resumeData.main} />
         <Resume data={this.state.resumeData.resume} />
+        <Skills data={this.state.resumeData.resume} />
         <Portfolio data={this.state.resumeData.portfolio} />
         <Idiosyncrasies data={this.state.resumeData.hobbies} />
         {/* <Contact data={this.state.resumeData.main} /> */}

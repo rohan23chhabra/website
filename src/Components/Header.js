@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {imgRoot} from "../consts"
+import { imgRoot } from '../consts'
 
 class Header extends Component {
   render () {
@@ -41,7 +41,7 @@ class Header extends Component {
               className='smoothscroll'
               href='#home'
                                     >Home
-            </a>
+                                    </a>
             </li>
             <li><a className='smoothscroll' href='#about'>About</a>
             </li>
@@ -49,19 +49,25 @@ class Header extends Component {
               className='smoothscroll'
               href='#resume'
                 >Resume
-            </a>
+                </a>
+            </li>
+            <li><a
+              className='smoothscroll'
+              href='#skills'
+                >Skills
+                </a>
             </li>
             <li><a
               className='smoothscroll'
               href='#portfolio'
                 >Works
-                </a>
+            </a>
             </li>
             <li><a
               className='smoothscroll'
               href='#idiosyncrasies'
                 >Idiosyncrasies
-                </a>
+            </a>
             </li>
             {/* <li><a */}
             {/* className='smoothscroll' */}

@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {portfolioRootPath} from "../consts"
+import { portfolioRootPath } from '../consts'
 
 class Portfolio extends Component {
   render () {
@@ -36,10 +36,7 @@ class Portfolio extends Component {
         <div className='row'>
           <div className='twelve columns collapsed'>
             <h1>Some Technical Projects in College</h1>
-            <div
-              id='portfolio-wrapper'
-              className='bgrid-quarters s-bgrid-thirds cf'
-            >
+            <div id='portfolio-wrapper' className='bgrid-quarters s-bgrid-thirds cf'>
               {projects}
             </div>
           </div>

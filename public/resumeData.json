@@ -99,47 +99,63 @@
         "skills": [
             {
                 "name": "Git",
-                "level": "70%"
+                "category": "Others",
+                "url": "git.png"
             },
             {
                 "name": "Golang",
-                "level": "80%"
+                "category": "Languages",
+                "url": "golang.jpg"
             },
             {
-                "name": "ReactJs",
-                "level": "50%"
+                "name": "React.js",
+                "category": "Frameworks",
+                "url": "react.jpg"
             },
             {
                 "name": "JAVA",
-                "level": "90%"
+                "category": "Languages",
+                "url": "java.png"
             },
             {
                 "name": "C/C++",
-                "level": "80%"
+                "category": "Languages",
+                "url": "c.png"
             },
             {
                 "name": "Android",
-                "level": "70%"
+                "category": "Frameworks",
+                "url": "android.jpg"
             },
             {
                 "name": "Xtext DSLs",
-                "level": "70%"
+                "category": "Frameworks",
+                "url": "xtext.png"
             },
             {
                 "name": "Xtend",
-                "level": "70%"
+                "category": "Languages",
+                "url": "xtend.png"
             },
             {
                 "name": "Node.js",
-                "level": "60%"
+                "category": "Frameworks",
+                "url": "nodejs.png"
             },
             {
-                "name": "Data Structures and Algorithms",
-                "level": "80%"
+                "name": "Algorithms",
+                "category": "Others",
+                "url": "algorithm.jpg"
             },
             {
-                "name": "JAVAEE and JAVAFX",
-                "level": "80%"
+                "name": "JAVAEE",
+                "category": "Frameworks",
+                "url": "javaee.png"
+            },
+            {
+                "name": "JAVAFX",
+                "category": "Frameworks",
+                "url": "javafx.png"
             }
         ]
     },
@@ -175,7 +191,7 @@
         "idiosyncrasies": [
             {
                 "name": "Etymology",
-                "url": "etymology.jpeg",
+                "url": "etymology-1.jpg",
                 "desc": "Learning languages from their roots!"
             },
             {

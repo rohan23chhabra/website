@@ -1,6 +1,7 @@
-var imgRoot = './images/'
-var collegeLogosRootPath = './images/logo/college/'
-var workLogosRootPath = './images/logo/work/'
-var portfolioRootPath = './images/portfolio/'
+const imgRoot = './images/'
+const collegeLogosRootPath = './images/logo/college/'
+const workLogosRootPath = './images/logo/work/'
+const portfolioRootPath = './images/portfolio/'
+const skillsRootPath = './images/skills/'
 
-export {imgRoot, collegeLogosRootPath, workLogosRootPath, portfolioRootPath}
+export { imgRoot, collegeLogosRootPath, workLogosRootPath, portfolioRootPath, skillsRootPath }

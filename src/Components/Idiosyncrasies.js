@@ -1,15 +1,6 @@
 import React, { Component } from 'react'
-import {portfolioRootPath} from "../consts"
-
-function Card (props) {
-  return (
-    <div key={props.key} className='my-card'>
-      <img className='my-card-image' src={props.url} />
-      <h5 className='my-card-title'>{props.title}</h5>
-      <p className='my-card-desc'>{props.desc}</p>
-    </div>
-  )
-}
+import { portfolioRootPath } from '../consts'
+import HobbyCard from './HobbyCard'
 
 class Idiosyncrasies extends Component {
   render () {
@@ -17,7 +8,7 @@ class Idiosyncrasies extends Component {
       var idiosyncrasies = this.props.data.idiosyncrasies.map(
         function (idiosyncrasies) {
           return (
-            <Card
+            <HobbyCard
               key={idiosyncrasies.name}
               url={portfolioRootPath + idiosyncrasies.url}
               title={idiosyncrasies.name}
@@ -31,7 +22,7 @@ class Idiosyncrasies extends Component {
       <section id='idiosyncrasies'>
         <div className='row'>
           <h1>Some Hobbies and Idiosyncrasies</h1>
-          <div className='my-card-container'>
+          <div className='hobby-card-container'>
             {idiosyncrasies}
           </div>
         </div>

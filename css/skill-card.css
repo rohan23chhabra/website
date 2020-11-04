@@ -1,0 +1,71 @@
+#skills .header-col h1:before {
+    font-size: 66px;
+    line-height: 66px;
+}
+
+#skills {
+    background: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+#skills h1 {
+    font: 22px 'monospace', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*text-align: center;*/
+    margin-bottom: 48px;
+    color: #000000;
+}
+
+.skills-heading {
+    font: 24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    /*letter-spacing: 1px;*/
+    text-align: center;
+    /*margin-bottom: 48px;*/
+    color: #050758;
+}
+
+/*#skills-wrapper .columns { margin-bottom: 36px; }*/
+
+.my-skills {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill-all {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+}
+
+.skill-card {
+    width: 160px;
+}
+
+.skill-card-image {
+    width: 150px;
+    height: 150px;
+    padding: 10px;
+}
+
+.skill-card-title {
+    padding: 10px;
+    color: #000000;
+    text-align: center;
+}
+
+.skill-row {
+    max-width: 1520px;
+    margin: 0 auto;
+}
+
+hr.rounded {
+    width: inherit;
+    border-top: 2px solid #bbb;
+    border-radius: 5px;
+}

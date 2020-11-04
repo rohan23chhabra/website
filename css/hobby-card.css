@@ -1,24 +1,24 @@
-.my-card-container {
+.hobby-card-container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.my-card {
+.hobby-card {
     width: 180px;
 }
 
-.my-card-image {
+.hobby-card-image {
     width: 170px;
     padding: 10px;
 }
 
-.my-card-title {
+.hobby-card-title {
     padding: 10px;
     color: #FFFFFF;
 }
 
-.my-card-desc {
+.hobby-card-desc {
     padding: 10px;
 }

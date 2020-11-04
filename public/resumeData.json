@@ -105,27 +105,37 @@
             {
                 "name": "Golang",
                 "category": "Languages",
-                "url": "golang.jpg"
+                "url": "golang.png"
             },
             {
                 "name": "React.js",
                 "category": "Frameworks",
-                "url": "react.jpg"
+                "url": "react.png"
             },
             {
-                "name": "JAVA",
+                "name": "Java",
                 "category": "Languages",
-                "url": "java.png"
+                "url": "java1.png"
             },
             {
-                "name": "C/C++",
+                "name": "C",
+                "category": "Languages",
+                "url": "c.webp"
+            },
+            {
+                "name": "C++",
                 "category": "Languages",
                 "url": "c.png"
             },
             {
+                "name": "JavaScript",
+                "category": "Languages",
+                "url": "js.png"
+            },
+            {
                 "name": "Android",
                 "category": "Frameworks",
-                "url": "android.jpg"
+                "url": "android.png"
             },
             {
                 "name": "Xtext DSLs",
@@ -135,7 +145,7 @@
             {
                 "name": "Xtend",
                 "category": "Languages",
-                "url": "xtend.png"
+                "url": "xtend1.png"
             },
             {
                 "name": "Node.js",
@@ -143,19 +153,19 @@
                 "url": "nodejs.png"
             },
             {
-                "name": "Algorithms",
+                "name": "Docker",
                 "category": "Others",
-                "url": "algorithm.jpg"
+                "url": "docker1.png"
             },
             {
                 "name": "JAVAEE",
                 "category": "Frameworks",
-                "url": "javaee.png"
+                "url": "javaee1.png"
             },
             {
                 "name": "JAVAFX",
                 "category": "Frameworks",
-                "url": "javafx.png"
+                "url": "javafx1.png"
             }
         ]
     },

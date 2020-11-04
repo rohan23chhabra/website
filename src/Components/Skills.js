@@ -46,12 +46,15 @@ function Skills (props) {
   }
 
   return (
-    <section id='skills' className='my-skills'>
-      <p id='skills-heading'>Technical Skills</p>
+    <section id='skills'>
+      {/* <hr className='rounded'/> */}
+      <div className='my-skills'>
+      <p className='skills-heading'>Technical Skills</p>
       <div>
-        <div className='row'>
+        <div className='skill-row'>
 
-          <h1>Programming Languages</h1>
+          {/* <h1>Programming Languages</h1> */}
+          {/* <hr className='rounded'/> */}
           <div className='skill-all'>
             {languages}
           </div>
@@ -60,8 +63,9 @@ function Skills (props) {
       </div>
 
       <div>
-        <div className='row'>
-          <h1>Frameworks</h1>
+        <div className='skill-row'>
+          {/* <h1>Frameworks</h1> */}
+          {/* <hr className='rounded'/> */}
           <div className='skill-all'>
             {frameworks}
           </div>
@@ -69,14 +73,15 @@ function Skills (props) {
       </div>
 
       <div>
-        <div className='row'>
-          <h1>Other tools and concepts</h1>
+        <div className='skill-row'>
+          {/* <h1>Other tools and concepts</h1> */}
+          {/* <hr className='rounded'/> */}
           <div className='skill-all'>
             {others}
           </div>
         </div>
       </div>
-
+      </div>
     </section>
   )
 }

@@ -2,10 +2,13 @@ import React from 'react'
 
 function Skill (props) {
   return (
-    <div key={props.key} className='skill-card'>
-      <img className='skill-card-image' src={props.url} />
-      {/* <h5 className='skill-card-title'>{props.title}</h5> */}
-    </div>
+    <a key={props.key} href={props.link} target='_blank' className='skill-card'>
+      <div className='zoom-tooltip'>
+        <img className='skill-card-image' src={props.url} />
+        <span className='skill-card-title'>{props.title}</span>
+      </div>
+
+    </a>
   )
 }
 

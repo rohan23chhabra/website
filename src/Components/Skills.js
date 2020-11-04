@@ -11,6 +11,7 @@ function Skills (props) {
             <Skill
               key={skill.name}
               url={skillsRootPath + skill.url}
+              link={skill.link}
               title={skill.name}
             />
           )
@@ -24,6 +25,7 @@ function Skills (props) {
             <Skill
               key={skill.name}
               url={skillsRootPath + skill.url}
+              link={skill.link}
               title={skill.name}
             />
           )
@@ -37,6 +39,7 @@ function Skills (props) {
             <Skill
               key={skill.name}
               url={skillsRootPath + skill.url}
+              link={skill.link}
               title={skill.name}
             />
           )
@@ -49,38 +52,38 @@ function Skills (props) {
     <section id='skills'>
       {/* <hr className='rounded'/> */}
       <div className='my-skills'>
-      <p className='skills-heading'>Technical Skills</p>
-      <div>
-        <div className='skill-row'>
+        <p className='skills-heading'>Technical Skills</p>
+        <div>
+          <div className='skill-row'>
 
-          {/* <h1>Programming Languages</h1> */}
-          {/* <hr className='rounded'/> */}
-          <div className='skill-all'>
-            {languages}
-          </div>
+            {/* <h1>Programming Languages</h1> */}
+            {/* <hr className='rounded'/> */}
+            <div className='skill-all'>
+              {languages}
+            </div>
 
-        </div>
-      </div>
-
-      <div>
-        <div className='skill-row'>
-          {/* <h1>Frameworks</h1> */}
-          {/* <hr className='rounded'/> */}
-          <div className='skill-all'>
-            {frameworks}
           </div>
         </div>
-      </div>
 
-      <div>
-        <div className='skill-row'>
-          {/* <h1>Other tools and concepts</h1> */}
-          {/* <hr className='rounded'/> */}
-          <div className='skill-all'>
-            {others}
+        <div>
+          <div className='skill-row'>
+            {/* <h1>Frameworks</h1> */}
+            {/* <hr className='rounded'/> */}
+            <div className='skill-all'>
+              {frameworks}
+            </div>
           </div>
         </div>
-      </div>
+
+        <div>
+          <div className='skill-row'>
+            {/* <h1>Other tools and concepts</h1> */}
+            {/* <hr className='rounded'/> */}
+            <div className='skill-all'>
+              {others}
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   )

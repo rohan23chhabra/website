@@ -100,71 +100,85 @@
             {
                 "name": "Git",
                 "category": "Others",
+                "link": "https://git-scm.com/",
                 "url": "git.png"
             },
             {
                 "name": "Golang",
                 "category": "Languages",
+                "link": "https://golang.org/",
                 "url": "golang.png"
             },
             {
                 "name": "React.js",
                 "category": "Frameworks",
+                "link": "https://reactjs.org/",
                 "url": "react.png"
             },
             {
                 "name": "Java",
                 "category": "Languages",
+                "link": "https://www.java.com/en/",
                 "url": "java1.png"
             },
             {
                 "name": "C",
                 "category": "Languages",
+                "link": "https://www.cprogramming.com/",
                 "url": "c.webp"
             },
             {
                 "name": "C++",
                 "category": "Languages",
+                "link": "https://isocpp.org/",
                 "url": "c.png"
             },
             {
                 "name": "JavaScript",
                 "category": "Languages",
+                "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
                 "url": "js.png"
             },
             {
                 "name": "Android",
                 "category": "Frameworks",
+                "link": "https://developer.android.com/",
                 "url": "android.png"
             },
             {
                 "name": "Xtext DSLs",
                 "category": "Frameworks",
+                "link": "https://www.eclipse.org/Xtext/",
                 "url": "xtext.png"
             },
             {
                 "name": "Xtend",
                 "category": "Languages",
+                "link": "https://www.eclipse.org/xtend/",
                 "url": "xtend1.png"
             },
             {
                 "name": "Node.js",
                 "category": "Frameworks",
+                "link": "https://nodejs.org/en/",
                 "url": "nodejs.png"
             },
             {
                 "name": "Docker",
                 "category": "Others",
+                "link": "https://www.docker.com/",
                 "url": "docker1.png"
             },
             {
                 "name": "JAVAEE",
                 "category": "Frameworks",
+                "link": "https://www.oracle.com/in/java/technologies/java-ee-glance.html",
                 "url": "javaee1.png"
             },
             {
                 "name": "JAVAFX",
                 "category": "Frameworks",
+                "link": "https://openjfx.io/",
                 "url": "javafx1.png"
             }
         ]

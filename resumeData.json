@@ -2,21 +2,21 @@
     "main": {
         "name": "Rohan Chhabra",
         "occupation": "Software Engineer",
-        "description": "I love building and designing software. Currently, pursuing my passion to build real life software projects at Visa Inc",
+        "description": "I am a Masters student at Stony Brook University majoring in Computer Science. My interests lie in the field of distributed and operating systems.",
         "image": "profilepic.jpg",
-        "bio": "I possess a predilection for writing code which is capable of doing dramatic things. Love playing around with technologies like JAVA, Golang and React. My leisure and pleasure is watching cricket and writing poems, content, essays etc. I possess an unusual propensity to learn vocabulary using etymology. Currently learning Spanish for fun and appreciating the similarities it possesses with English and Hindi as they belong to the same Indo-European language family",
+        "bio": "I possess a predilection for writing code which is capable of doing dramatic things. I am at solace with languages like JAVA, Golang and C++. My leisure and pleasure is watching cricket and writing poems, content, essays etc. I possess an unusual propensity to learn vocabulary using etymology. Currently learning Spanish for fun and appreciating the similarities it possesses with English and Hindi as they belong to the same Indo-European language family",
         "contactmessage": "Well, not a counsellor but just keep learning! That's what I am doing now!",
-        "email": "rohan23chhabra@gmail.com",
-        "phone": "",
-        "jobLocation": "Bengaluru (currently WFH from Allahabad)",
+        "email": "rohan.chhabra@stonybrook.edu",
+        "phone": "+1 (631) 609-5522",
+        "jobLocation": "Stony Brook, NY",
         "address": {
-            "street": "H.I.G - 3, Pink Flats, 1, Circular Road",
-            "city": "Allahabad",
-            "state": "Uttar Pradesh",
-            "zip": "211001"
+            "street": "700, Health Sciences Drive, Chapin B 2022",
+            "city": "Stony Brook",
+            "state": "New York",
+            "zip": "11790"
         },
         "website": "http://www.timbakerdev.com",
-        "resumedownload": "https://drive.google.com/file/d/17zLZf7TYbkURw6kTIrXA_ntOMqfZYD1q/view?usp=sharing",
+        "resumedownload": "https://drive.google.com/file/d/12IYeXxEc_IAZFJ-gf0tiTJsGbwc2JGwe/view?usp=sharing",
         "social": [
             {
                 "name": "twitter",
@@ -44,6 +44,13 @@
         "skillmessage": "Designing and Learning Languages for fun",
         "education": [
             {
+                "school": "Stony Brook University",
+                "degree": "Masters of Science in Computer Science",
+                "graduated": "December 2022 (Tentative)",
+                "description": "Relevant Courses include Distributed Systems, Analysis of Algorithms, Fundamentals of Computer Networking and an Independent Study on File Systems for Serverless applications",
+                "logo": "sbu.jpg"
+            },
+            {
                 "school": "Motilal Nehru National Institute of Technology (MNNIT) Allahabad",
                 "degree": "Bachelor of Technology in Computer Science",
                 "graduated": "May 2019",
@@ -69,9 +76,9 @@
             {
                 "company": "Visa Inc.",
                 "title": "Software Engineer",
-                "years": "July 2019 - Present",
+                "years": "July 2019 - July 2021",
                 "logo": "visa2.jpg",
-                "description": "DSLs in Xtext, Xtend, Golang, Distributed Systems, Docker and Kubernetes deployments, ISO 8583 binary parser, Boltdb key-value database, GRPC"
+                "description": "DSLs in Xtext, Xtend, Golang, Distributed Systems, Docker and Kubernetes deployments, ISO 8583 binary parser, Boltdb key-value database, GRPC, Cassandra and Kafka"
             },
             {
                 "company": "GeeksForGeeks",
@@ -134,6 +141,18 @@
                 "url": "c.png"
             },
             {
+                "name": "Kubernetes",
+                "category": "Frameworks",
+                "link": "https://kubernetes.io/",
+                "url": "K8s.png"
+            },
+            {
+                "name": "Cassandra",
+                "category": "Frameworks",
+                "link": "https://cassandra.apache.org/_/index.html",
+                "url": "cassandra.png"
+            },
+            {
                 "name": "JavaScript",
                 "category": "Languages",
                 "link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
@@ -186,6 +205,18 @@
     "portfolio": {
         "projects": [
             {
+                "title": "Course Management System",
+                "category": "A portal for students and instructors to manage courses and assignments",
+                "image": "CMS.jpg",
+                "url": "https://github.com/DevourTech/Course-Management-System"
+            },
+            {
+                "title": "Snapshotter",
+                "category": "A GitHub Action which creates a semantic versioned string using the git commit SHA and the current timestamp which is used to name a tag and publish it to GitHub",
+                "image": "snapshot.jpg",
+                "url": "https://github.com/DevourTech/snapshotter"
+            },
+            {
                 "title": "Tutorials Point",
                 "category": "A video sharing application for students and teachers",
                 "image": "tutorials.jpeg",
@@ -196,12 +227,6 @@
                 "category": "Peer to Peer file sharing JAVAFX application",
                 "image": "p2p.png",
                 "url": "https://github.com/rohan23chhabra/p2p"
-            },
-            {
-                "title": "Oculus Apertor",
-                "category": "An Android application to prevent road accidents",
-                "image": "eye.jpg",
-                "url": "https://github.com/rohan23chhabra/Oculus-Apertor"
             },
             {
                 "title": "Wordomania",

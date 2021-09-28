@@ -15,7 +15,7 @@ class About extends Component {
       var resumeDownload = this.props.data.resumedownload
     }
 
-    const bioStyle = { fontFamily: 'Impact', fontSize: 16, color: '#bfbfbf' }
+    const bioStyle = { fontFamily: 'opensans-regular', fontSize: 22, color: '#bfbfbf' }
 
     return (
       <section id='about'>

@@ -37,6 +37,11 @@
                 "name": "github",
                 "url": "http://github.com/rohan23chhabra",
                 "className": "fa fa-github"
+            },
+            {
+                "name": "hashnode",
+                "url": "https://discreteaspects.hashnode.dev/",
+                "className": "fa fa-archive"
             }
         ]
     },
